@@ -3,20 +3,20 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from db import Database
 
 
-Channel_URL = "https://t.me/testChannelchatt"
-Channel_ID = "@testChannelchatt"
-ChatID = "@publicGroupechat"
+Channel_URL = ""
+Channel_ID = ""
+ChatID = ""
 
 
 btnUrlChannel = InlineKeyboardButton('Перейти на канал', url= Channel_URL)
 ChannelMenu = InlineKeyboardMarkup(row_width=1)
 ChannelMenu.insert(btnUrlChannel)
 
-Words = ["хуй","блять","бля","нахуй","пизда","пизд","мать сдохла","пидорас","мудак","членосос","блядь","сиськи","хуйня",]
+Words = []
 
-AdminID = '700117365'
+AdminID = ''
 
-bot = Bot(token='5539589340:AAHL2qb_jMaBE6YfsAj4A6P0nq6adeAXS8o')
+bot = Bot(token='')
 dp = Dispatcher(bot)
 
 
